@@ -7,5 +7,5 @@ function kgToPd() {
 }
 function pdToKg() {
   let output = (parseFloat(pound.value) * 0.453592);
-  kilogram.value = parseFloat(output.toFixed(2));
+  kilogram.value = parseFloat(output.toFixed(4));
 }
